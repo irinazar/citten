@@ -1,0 +1,27 @@
+.card {
+  position: relative;
+  width: 225px;
+  height: 225px;
+  margin: 24px;
+  overflow: hidden;
+  transition: transform 0.3s;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  &.hovered {
+    transform: scale(1.1);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 58.85%);
+  }
+}
+
+.cardContent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
