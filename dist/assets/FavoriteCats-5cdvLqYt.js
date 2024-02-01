@@ -1,0 +1,1 @@
+import{j as r}from"./index-lFaU75vF.js";import{u as a,s as e,C as o}from"./AllCats.module-lSRAaDjc.js";function m(){const t=a(s=>s.cats.favoriteCats);return r.jsx("div",{className:e.container,children:t==null?void 0:t.map(s=>r.jsx(o,{cat:s},s.id))})}export{m as default};
