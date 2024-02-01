@@ -6,9 +6,9 @@ import { Provider } from "react-redux";
 import store from "./features/store.ts";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/citten/">
     <ChakraProvider>
-      <Provider store={store}>
+      <Provider store={store} >
         <App />
       </Provider>
     </ChakraProvider>
